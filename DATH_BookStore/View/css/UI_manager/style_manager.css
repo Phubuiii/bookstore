@@ -1,0 +1,68 @@
+/* ======================= Cards ====================== */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.details .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cardHeader .btn:hover{
+    color: white;
+}
+.cardHeader .btn{
+    background-color: #a3cef8;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-1 {
+    background-color: #f7a1a1;
+}  
+.card-2 {
+    background-color: #a3cef8;
+}
+.card-3 {
+    background-color: #96eed8;
+}
+.card-4 {
+    background-color: #f5d57d;
+}
+.numbers {
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card-name {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+  
+/* ================== Đơn hàng ============== */
+
+.details .recentOrders {
+    background: white;
+    padding: 10px 20px 20px 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+.details table thead td {
+    font-weight: 600;
+}
+.details .recentOrders table tr {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.details .recentOrders table tr:last-child {
+    border-bottom: none;
+}
+.details .recentOrders table tbody tr:hover {
+    background:#dee2e6;
+}

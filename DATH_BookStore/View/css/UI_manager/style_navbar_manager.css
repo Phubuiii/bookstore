@@ -1,0 +1,28 @@
+.nav-link:hover {
+    background-color: #dee2e6;
+    color: #212529;
+}
+.nav-link.active {
+    background-color: #6aacf3;
+    color: white;
+}
+.nav-link.active:hover {
+    background-color: #6aacf3;
+}
+
+.sidebar-sticky ul {
+    font-weight: 500;
+    margin-top: 20px;
+}
+  
+.sidebar-sticky li a {
+    color: black;
+    padding: 10px;
+    transition: all .3s ease;
+}
+  
+.sidebar-sticky li a:hover {
+    background-color: #6aacf3;
+    color: #fff;
+}
+  

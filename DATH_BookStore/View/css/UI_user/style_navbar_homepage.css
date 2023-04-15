@@ -1,0 +1,159 @@
+@media (min-width: 320px) {
+    .row .col-mobile-1{
+        flex: 0 0 auto;
+        width: 10%;
+    }
+    .row .col-mobile-2{
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .row .col-mobile-3{
+        flex: 0 0 auto;
+        width: 30%;
+    }
+    .row .col-mobile-4{
+        flex: 0 0 auto;
+        width: 40%;
+    }
+    .row .col-mobile-5{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .row .col-mobile-6{
+        flex: 0 0 auto;
+        width: 60%;
+    }
+    .row .col-mobile-7{
+        flex: 0 0 auto;
+        width: 70%;
+    }
+    .row .col-mobile-8{
+        flex: 0 0 auto;
+        width: 80%;
+    }
+    .row .col-mobile-9{
+        flex: 0 0 auto;
+        width: 90%;
+    }
+    .row .col-mobile-10{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .pd_mobile{
+        margin: 0;
+    }
+}
+@media (min-width: 768px) {
+    .row .col-tablet-1{
+        flex: 0 0 auto;
+        width: 10%;
+    }
+    .row .col-tablet-2{
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .row .col-tablet-3{
+        flex: 0 0 auto;
+        width: 30%;
+    }
+    .row .col-tablet-4{
+        flex: 0 0 auto;
+        width: 40%;
+    }
+    .row .col-tablet-5{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .row .col-tablet-6{
+        flex: 0 0 auto;
+        width: 60%;
+    }
+    .row .col-tablet-7{
+        flex: 0 0 auto;
+        width: 70%;
+    }
+    .row .col-tablet-8{
+        flex: 0 0 auto;
+        width: 80%;
+    }
+    .row .col-tablet-9{
+        flex: 0 0 auto;
+        width: 90%;
+    }
+    .row .col-tablet-10{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+/* ======================= Navbar top ====================== */
+
+.btn .badge{
+    color: black;
+}
+.form-control {
+    border-radius: 0;
+}
+.input-group-append .btn {
+    border-radius: 0;   
+    color: rgb(179, 93, 107);
+}
+.navbar_ic .btn{
+    color: rgb(179, 93, 107);
+}
+
+/* ======================= Navbar left ====================== */
+
+.navbar_left .btn{
+    background-color: rgb(179, 139, 145);
+    border-radius: 0;
+}
+.navbar_left .btn:hover{
+    background-color: rgb(165, 115, 122);
+}
+.navbar-nav .nav-link{
+    padding-left: 30px;
+    font-weight: 500;
+    color: black;
+}
+.navbar-nav .nav-link:hover{
+    color: rgb(179, 139, 145);
+}
+.collapse .list-group{
+    border-radius: 0;
+
+}
+.list-group .list-group-item{
+    font-weight: 500;
+    padding-left: 30px;
+}
+.collapse .list-group .active{
+    background-color: white;
+    border-color: #e0d4d4;
+    color: rgb(179, 139, 145);
+}
+
+
+/* ======================= Navbar main ====================== */
+.nav_main > div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.navbar-collapse .navbar-nav .nav-link.active{
+    color: rgb(179, 139, 145);
+}
+
+/* ======================= Breadcrumb ====================== */
+.breadcrumb .breadcrumb-item.active {
+    color: rgb(179, 139, 145);
+    font-weight: 500;
+}
+.breadcrumb a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.breadcrumb a:hover{
+    color: rgb(179, 139, 145);
+    font-weight: 500;
+}

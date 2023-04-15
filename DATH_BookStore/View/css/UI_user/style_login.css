@@ -1,0 +1,14 @@
+.frame_login {
+    background-color: #f2f2f2d5;
+    padding: 40px 40px 10px 40px;
+}
+.bg_login{
+    background-image: url(../../images/bg-login1.jpg);
+    background-size: cover;
+    border: none;
+}
+.bg_login1{
+    background-image: url(../../images/bg-login.jpg);
+    background-size: cover;
+    border: none;
+}

@@ -1,0 +1,52 @@
+div.card{
+    border-radius: 0;
+}
+.custom-file-input::-webkit-file-upload-button {
+    color: white;
+    background-color: rgb(209, 164, 170);
+    border-color:  rgb(209, 164, 170);
+    border: 0;
+    border-radius: 0.25rem;
+    width: 8em;
+    font-size: 0.8rem;
+    height: 2.5em;
+}
+.custom-file-input::-webkit-file-upload-button:hover {
+    color: white;
+    background-color: rgb(192, 122, 131);
+    border: 0;
+    border-radius: 0.25rem;
+    width: 8em;
+    font-size: 0.8rem;
+    height: 2.5em;
+}
+div .list-group-item{
+    border: 0;
+    border-radius:0px;
+    border-bottom: 1px solid;
+    border-color: #ebdede;
+    font-weight: 500;
+}
+div .list-group-item:last-child{
+    border-bottom: 0;
+}
+div .list-group-item.active{
+    background-color: rgb(218, 195, 198);
+    border-color: rgb(218, 195, 198);
+    color: black;
+}
+
+form{
+    font-weight: 500;
+} 
+
+button[type="submit"]{
+    background-color: rgb(211, 142, 152);
+    border-color:  rgb(211, 142, 152);
+    color: white;
+    font-weight: 500;
+}
+button[type="submit"]:hover{
+    background-color: rgb(192, 110, 121);
+    border-color:  rgb(192, 110, 121);
+}
